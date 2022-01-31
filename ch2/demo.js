@@ -10,3 +10,5 @@ const verbs = _.pluck(sentences, 'verb')
 for(let verb of verbs) {
     console.log(`found verb: ${verb}`)
 }
+
+console.log("fuckery: " + (0.1 + 0.2))
